@@ -1,0 +1,172 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - link "gurpreet." [ref=e5] [cursor=pointer]:
+        - /url: "#"
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Over mij" [ref=e8] [cursor=pointer]:
+            - /url: "#over-mij"
+        - listitem [ref=e9]:
+          - link "Vaardigheden" [ref=e10] [cursor=pointer]:
+            - /url: "#vaardigheden"
+        - listitem [ref=e11]:
+          - link "Projecten" [ref=e12] [cursor=pointer]:
+            - /url: "#projecten"
+        - listitem [ref=e13]:
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: "#contact"
+  - main [ref=e15]:
+    - region "Introductie" [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - heading "Gurpreet Singh Kaur" [level=1] [ref=e19]:
+            - text: Gurpreet
+            - text: Singh Kaur
+          - paragraph [ref=e20]: _
+          - paragraph [ref=e21]: Student software engineering aan de HvA. Ik bouw websites en webapps van eerste schets tot livegang.
+          - generic [ref=e22]:
+            - link "Bekijk projecten" [ref=e23] [cursor=pointer]:
+              - /url: "#projecten"
+              - text: Bekijk projecten
+              - img [ref=e24]
+            - link "Neem contact op" [ref=e26] [cursor=pointer]:
+              - /url: "#contact"
+          - generic [ref=e27]:
+            - link "GitHub" [ref=e28] [cursor=pointer]:
+              - /url: https://github.com/gsk1012
+              - img [ref=e29]
+            - link "LinkedIn" [ref=e31] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/gurpreet-singh-a11a03303/
+              - img [ref=e32]
+            - link "E-mail" [ref=e34] [cursor=pointer]:
+              - /url: mailto:prince.parhar1012@gmail.com
+              - img [ref=e35]
+        - generic [ref=e37]:
+          - img "Gurpreet Singh Kaur" [ref=e40]
+          - generic [ref=e42]: Laravel
+          - generic [ref=e44]: PHP
+          - generic [ref=e46]: TypeScript
+          - generic [ref=e48]: WordPress
+    - region "Over mij" [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - heading "Over mij" [level=2] [ref=e53]
+            - generic [ref=e54]:
+              - paragraph [ref=e55]: Ik ben Gurpreet, full stack developer uit Amsterdam. Tijdens mijn stage bij BOEI17 bouwde ik een jaar lang websites voor klanten, van het eerste gesprek tot de oplevering. Daar leerde ik dat goede software begint bij goed luisteren.
+              - paragraph [ref=e56]: Na mijn MBO-diploma studeer ik nu software engineering aan de HvA. Naast mijn studie bouw ik websites voor ondernemers die online willen groeien.
+          - list [ref=e58]:
+            - listitem [ref=e59]:
+              - img [ref=e60]
+              - text: Amsterdam
+            - listitem [ref=e62]:
+              - img [ref=e63]
+              - text: Full stack
+            - listitem [ref=e65]:
+              - img [ref=e66]
+              - text: HvA student
+            - listitem [ref=e68]:
+              - img [ref=e69]
+              - text: NL / EN
+        - list [ref=e71]:
+          - listitem [ref=e74]:
+            - paragraph [ref=e76]: 2025 - heden
+            - heading "Software Engineering, HvA" [level=3] [ref=e77]
+            - paragraph [ref=e78]: HBO-opleiding aan de Hogeschool van Amsterdam, waar ik mijn fundament verbreed naar grotere applicaties.
+          - listitem [ref=e80]:
+            - paragraph [ref=e82]: 2024 - 2025
+            - heading "Stage, BOEI17" [level=3] [ref=e83]
+            - paragraph [ref=e84]: Een jaar lang WordPress-websites vanaf nul gebouwd en klanten ondersteund, midden in Amsterdam.
+          - listitem [ref=e86]:
+            - paragraph [ref=e88]: 2022 - 2025
+            - heading "MBO niveau 4, Softwareontwikkeling" [level=3] [ref=e89]
+            - paragraph [ref=e90]: Mijn diploma en de plek waar het programmeren begon.
+    - region "Vaardigheden en technologieën" [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - heading "Mijn toolkit" [level=2] [ref=e94]
+          - paragraph [ref=e95]: Ik werk over de volle breedte van een project, van database en API tot de interface die de gebruiker ziet.
+        - generic [ref=e96]:
+          - generic [ref=e99]:
+            - paragraph [ref=e100]: PHP
+            - paragraph [ref=e101]: Backend
+          - generic [ref=e104]:
+            - paragraph [ref=e105]: Laravel
+            - paragraph [ref=e106]: Backend
+          - generic [ref=e109]:
+            - paragraph [ref=e110]: MySQL
+            - paragraph [ref=e111]: Database
+          - generic [ref=e114]:
+            - paragraph [ref=e115]: TypeScript
+            - paragraph [ref=e116]: Frontend
+          - generic [ref=e119]:
+            - paragraph [ref=e120]: JavaScript
+            - paragraph [ref=e121]: Frontend
+          - generic [ref=e124]:
+            - paragraph [ref=e125]: HTML
+            - paragraph [ref=e126]: Frontend
+          - generic [ref=e129]:
+            - paragraph [ref=e130]: CSS
+            - paragraph [ref=e131]: Frontend
+          - generic [ref=e134]:
+            - paragraph [ref=e135]: WordPress
+            - paragraph [ref=e136]: CMS
+    - region "Projecten" [ref=e137]:
+      - generic [ref=e138]:
+        - heading "Projecten" [level=2] [ref=e140]
+        - link "Webdesign en development Prince Schilder Website voor een schilder- en klusbedrijf in Amsterdam. Ontworpen en gebouwd van eerste schets tot livegang, met focus op offerteaanvragen. Bekijk live site Screenshot van de Prince Schilder website" [ref=e142] [cursor=pointer]:
+          - /url: https://prince-schilder.vercel.app/
+          - generic [ref=e143]:
+            - paragraph [ref=e144]: Webdesign en development
+            - heading "Prince Schilder" [level=3] [ref=e145]
+            - paragraph [ref=e146]: Website voor een schilder- en klusbedrijf in Amsterdam. Ontworpen en gebouwd van eerste schets tot livegang, met focus op offerteaanvragen.
+            - generic [ref=e147]:
+              - text: Bekijk live site
+              - img [ref=e148]
+          - img "Screenshot van de Prince Schilder website" [ref=e151]
+        - paragraph [ref=e153]:
+          - text: Meer projecten volgen. Nieuwsgierig naar wat ik nu bouw? Kijk op
+          - link "GitHub" [ref=e154] [cursor=pointer]:
+            - /url: https://github.com/gsk1012
+          - text: .
+    - region "Contact" [ref=e155]:
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - heading "Laten we iets bouwen" [level=2] [ref=e158]
+          - paragraph [ref=e159]: Heb je een project, stageplek of gewoon een goed idee? Stuur een bericht, ik reageer meestal binnen een dag.
+          - list [ref=e160]:
+            - listitem [ref=e161]:
+              - link "prince.parhar1012@gmail.com" [ref=e162] [cursor=pointer]:
+                - /url: mailto:prince.parhar1012@gmail.com
+                - img [ref=e164]
+                - generic [ref=e166]: prince.parhar1012@gmail.com
+            - listitem [ref=e167]:
+              - link "github.com/gsk1012" [ref=e168] [cursor=pointer]:
+                - /url: https://github.com/gsk1012
+                - img [ref=e170]
+                - generic [ref=e172]: github.com/gsk1012
+            - listitem [ref=e173]:
+              - link "LinkedIn" [ref=e174] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/gurpreet-singh-a11a03303/
+                - img [ref=e176]
+                - generic [ref=e178]: LinkedIn
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - generic [ref=e183]: Naam
+              - textbox "Naam" [ref=e184]:
+                - /placeholder: Je naam
+            - generic [ref=e185]:
+              - generic [ref=e186]: E-mail
+              - textbox "E-mail" [ref=e187]:
+                - /placeholder: naam@voorbeeld.nl
+          - generic [ref=e188]:
+            - generic [ref=e189]: Bericht
+            - textbox "Bericht" [ref=e190]:
+              - /placeholder: Vertel kort over je project of vraag
+          - button "Verstuur bericht" [ref=e191]:
+            - text: Verstuur bericht
+            - img [ref=e192]
+  - contentinfo [ref=e194]:
+    - paragraph [ref=e196]: © 2026 Gurpreet Singh Kaur

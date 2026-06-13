@@ -1,0 +1,59 @@
+@import "@fontsource-variable/outfit";
+@import "@fontsource-variable/jetbrains-mono";
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit Variable", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
+
+  /* Licht thema: warm grijs (stone), inkt-zwart en een oranje accent.
+     Een palet, een accent, voor de hele pagina. */
+  --color-paper: #f4f4f2;
+  --color-shell: #e7e5e1;
+  --color-card: #fcfcfb;
+  --color-ink: #161412;
+  --color-ink-soft: #211e1b;
+  --color-accent: #ea580c;
+  --color-accent-deep: #c2410c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: #fcfcfb;
+}
+
+/* Doorlopende logostrook: de track bevat de lijst twee keer,
+   dus -50% komt naadloos uit. Staat stil bij reduced motion. */
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 36s linear infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}

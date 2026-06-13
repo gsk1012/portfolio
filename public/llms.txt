@@ -1,0 +1,32 @@
+# Gurpreet Singh Kaur
+
+> Full stack developer uit Amsterdam, gespecialiseerd in PHP, Laravel, TypeScript en WordPress.
+
+Gurpreet Singh Kaur is een full stack developer uit Amsterdam. Hij studeert Software Engineering aan de Hogeschool van Amsterdam (HvA). Daarvoor liep hij stage bij BOEI17 in Amsterdam, waar hij een jaar lang WordPress-websites voor klanten bouwde van eerste schets tot livegang. Hij behaalde zijn MBO-diploma niveau 4 Softwareontwikkeling.
+
+## Vaardigheden
+
+Backend: PHP, Laravel, MySQL
+Frontend: TypeScript, JavaScript, HTML, CSS
+CMS: WordPress
+
+## Projecten
+
+- [Prince Schilder](https://prince-schilder.vercel.app/): Website voor een schilder- en klusbedrijf in Amsterdam, gebouwd met focus op offerteaanvragen.
+- Meer projecten op [github.com/gsk1012](https://github.com/gsk1012)
+
+## Opleiding
+
+- 2025 - heden: Software Engineering, Hogeschool van Amsterdam (HvA)
+- 2024 - 2025: Stage, BOEI17 Amsterdam
+- 2022 - 2025: MBO niveau 4 Softwareontwikkeling
+
+## Contact
+
+- E-mail: prince.parhar1012@gmail.com
+- GitHub: https://github.com/gsk1012
+- LinkedIn: https://www.linkedin.com/in/gurpreet-singh-a11a03303/
+
+## Beschikbaarheid
+
+Beschikbaar voor freelance projecten en stage in Amsterdam.

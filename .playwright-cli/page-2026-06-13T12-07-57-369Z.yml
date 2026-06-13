@@ -1,0 +1,138 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - link "logo" [ref=e10] [cursor=pointer]:
+          - /url: /index.html
+          - img "logo" [ref=e11]
+        - generic [ref=e13]:
+          - textbox "Zoeken" [ref=e14]:
+            - /placeholder: Zoek een game...
+          - img "Zoeken" [ref=e15]
+        - generic [ref=e16]:
+          - link "Home" [ref=e17] [cursor=pointer]:
+            - /url: /index.html
+          - link "Games" [ref=e18] [cursor=pointer]:
+            - /url: /products.html
+          - link "Over ons" [ref=e19] [cursor=pointer]:
+            - /url: /over-ons.html
+          - link "Contact" [ref=e20] [cursor=pointer]:
+            - /url: /contact.html
+          - button "Donkere modus inschakelen" [ref=e21] [cursor=pointer]:
+            - text: ☀
+            - generic [ref=e22]: ☀
+            - text: ☾
+          - generic [ref=e23]:
+            - link "Favorieten" [ref=e24] [cursor=pointer]:
+              - /url: /favorites.html
+              - img "Favorieten" [ref=e25]
+            - link "Winkelmandje" [ref=e26] [cursor=pointer]:
+              - /url: /cart.html
+              - img "Winkelmandje" [ref=e27]
+          - generic [ref=e28]:
+            - img "Account" [ref=e30] [cursor=pointer]
+            - generic:
+              - link "Inloggen":
+                - /url: /login.html
+              - link "Registreren":
+                - /url: /registreren.html
+    - text: ☀
+  - main [ref=e31]:
+    - generic [ref=e33]:
+      - heading "Inloggen" [level=1] [ref=e34]
+      - generic [ref=e35]:
+        - generic [ref=e36]: "Email:"
+        - textbox "Email:" [ref=e37]
+      - generic [ref=e38]:
+        - generic [ref=e39]: "Wachtwoord:"
+        - generic [ref=e40]:
+          - textbox "Wachtwoord:" [ref=e41]
+          - button "Wachtwoord tonen" [ref=e42] [cursor=pointer]
+      - button "Inloggen" [ref=e44] [cursor=pointer]
+      - paragraph [ref=e45]:
+        - text: Nog geen account?
+        - link "Registreer je!" [ref=e46] [cursor=pointer]:
+          - /url: ./registreren.html
+      - link "Wachtwoord vergeten?" [ref=e48] [cursor=pointer]:
+        - /url: ./wachtwoord-vergeten.html
+      - paragraph [ref=e49]
+  - contentinfo [ref=e51]:
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]: VOOR ALLE AVONTURIERS
+        - heading "Begin het volgende hoofdstuk van jouw avontuur met LucaStars." [level=2] [ref=e58]:
+          - text: Begin het volgende
+          - text: hoofdstuk van jouw
+          - text: avontuur met LucaStars.
+      - generic [ref=e59]:
+        - paragraph [ref=e60]: Verhalen die je meenemen, merchandise die je bijhoudt. Alles voor de echte avonturier, op één plek.
+        - generic [ref=e61]:
+          - link "Shop Nu" [ref=e62] [cursor=pointer]:
+            - /url: /products.html
+            - text: Shop Nu
+            - img [ref=e63]
+          - link "Ontdek collectie" [ref=e65] [cursor=pointer]:
+            - /url: /products.html
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - strong [ref=e68]: 50+
+            - text: PRODUCTEN
+          - generic [ref=e69]:
+            - strong [ref=e70]: GRATIS
+            - text: ACCOUNT
+          - generic [ref=e71]:
+            - strong [ref=e72]: VEILIG
+            - text: BETALEN
+    - generic [ref=e73]:
+      - generic: LucaStars
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - link "LucaStars" [ref=e76] [cursor=pointer]:
+            - /url: /index.html
+            - generic [ref=e78]: LucaStars
+          - paragraph [ref=e79]: Jouw startpunt voor spannende text-based adventures en exclusieve LucaStars collectibles.
+          - generic [ref=e80]:
+            - textbox "E-mailadres voor nieuwsbrief" [ref=e81]:
+              - /placeholder: jouw@email.nl
+            - button "Aanmelden" [ref=e82] [cursor=pointer]
+          - generic [ref=e83]:
+            - link "Instagram" [ref=e84] [cursor=pointer]:
+              - /url: https://instagram.com/luca_stars.2
+              - img [ref=e85]
+            - link "Facebook" [ref=e89] [cursor=pointer]:
+              - /url: https://facebook.com/Lucastars.2
+              - img [ref=e90]
+            - link "X" [ref=e92] [cursor=pointer]:
+              - /url: https://x.com/Lucastars2
+              - img [ref=e93]
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - heading "Ontdekken" [level=3] [ref=e97]
+            - link "Home" [ref=e98] [cursor=pointer]:
+              - /url: /index.html
+            - link "Games" [ref=e99] [cursor=pointer]:
+              - /url: /products.html
+            - link "Over ons" [ref=e100] [cursor=pointer]:
+              - /url: /over-ons.html
+            - link "Contact" [ref=e101] [cursor=pointer]:
+              - /url: /contact.html
+          - generic [ref=e102]:
+            - heading "Account" [level=3] [ref=e103]
+            - link "Inloggen" [ref=e104] [cursor=pointer]:
+              - /url: /login.html
+            - link "Registreren" [ref=e105] [cursor=pointer]:
+              - /url: /registreren.html
+            - link "Favorieten" [ref=e106] [cursor=pointer]:
+              - /url: /favorites.html
+            - link "Winkelmandje" [ref=e107] [cursor=pointer]:
+              - /url: /cart.html
+    - generic [ref=e109]:
+      - paragraph [ref=e110]: © 2026 LucaStars. Alle rechten voorbehouden.
+      - link "Terug naar boven" [ref=e111] [cursor=pointer]:
+        - /url: "#"
+        - text: Terug naar boven
+        - img [ref=e112]
+  - region "Supportchat" [ref=e115]:
+    - button "Help" [ref=e116] [cursor=pointer]:
+      - generic [ref=e117]: "?"
+      - generic [ref=e118]: Help

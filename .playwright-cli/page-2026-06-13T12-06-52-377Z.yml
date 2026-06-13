@@ -1,0 +1,269 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - link "logo" [ref=e10] [cursor=pointer]:
+          - /url: /index.html
+          - img "logo" [ref=e11]
+        - generic [ref=e13]:
+          - textbox "Zoeken" [ref=e14]:
+            - /placeholder: Zoek een game...
+          - img "Zoeken" [ref=e15]
+        - generic [ref=e16]:
+          - link "Home" [ref=e17] [cursor=pointer]:
+            - /url: /index.html
+          - link "Games" [ref=e18] [cursor=pointer]:
+            - /url: /products.html
+          - link "Over ons" [ref=e19] [cursor=pointer]:
+            - /url: /over-ons.html
+          - link "Contact" [ref=e20] [cursor=pointer]:
+            - /url: /contact.html
+          - button "Donkere modus inschakelen" [ref=e21] [cursor=pointer]:
+            - text: ☀
+            - generic [ref=e22]: ☀
+            - text: ☾
+          - generic [ref=e23]:
+            - link "Favorieten" [ref=e24] [cursor=pointer]:
+              - /url: /favorites.html
+              - img "Favorieten" [ref=e25]
+            - link "Winkelmandje" [ref=e26] [cursor=pointer]:
+              - /url: /cart.html
+              - img "Winkelmandje" [ref=e27]
+          - generic [ref=e28]:
+            - img "Account" [ref=e30] [cursor=pointer]
+            - generic:
+              - link "Inloggen":
+                - /url: /login.html
+              - link "Registreren":
+                - /url: /registreren.html
+    - text: ☀
+  - generic [ref=e31]:
+    - generic [ref=e34]:
+      - paragraph [ref=e35]: LucaStars Webshop
+      - heading "Kies. Ontdek. Speel." [level=1] [ref=e36]
+      - paragraph [ref=e37]: LucaStars brengt text-based adventures samen voor wie écht wil meeleven. Elk title is gekozen op sterke verhaallijn, scherpe keuzes en een sfeer die bijblijft. Direct in je account na aankoop.
+      - generic [ref=e38]:
+        - link "Ontdek het aanbod" [ref=e39] [cursor=pointer]:
+          - /url: /products.html
+        - link "Neem contact op" [ref=e40] [cursor=pointer]:
+          - /url: /contact.html
+      - generic "Kenmerken" [ref=e41]:
+        - generic [ref=e42]: Veilig betalen
+        - generic [ref=e43]: Direct speelbaar
+        - generic [ref=e44]: 24/7 Support
+    - generic [ref=e47]:
+      - img "Een LucaStars avontuur in de maak, met keuzes die het verhaal bepalen" [ref=e49]
+      - generic [ref=e50]:
+        - paragraph [ref=e51]: Ons verhaal
+        - heading "Verhalen die je bijblijven, keuzes die ertoe doen" [level=2] [ref=e52]
+        - paragraph [ref=e53]: "LucaStars is ontstaan vanuit één overtuiging: de beste games zijn die waarbij jij het verschil maakt. Geen passief kijken, maar actief kiezen en de gevolgen daarvan dragen."
+        - paragraph [ref=e54]: Elk spel in ons aanbod is zorgvuldig geselecteerd op verhaalsterkte, sfeer en originaliteit. Of je nu houdt van donkere mysteries of epische fantasiewerelden, hier vind je een avontuur dat bij jou past.
+        - link "Bekijk het aanbod" [ref=e55] [cursor=pointer]:
+          - /url: /products.html
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - heading "Waarom LucaStars?" [level=2] [ref=e59]
+        - paragraph [ref=e60]: Niet zomaar een game-shop. Wij selecteren alleen titels met een sterk verhaal, scherpe keuzes en een sfeer die blijft hangen.
+      - generic [ref=e61]:
+        - article [ref=e62]:
+          - img "Verhaalgedreven" [ref=e63]
+          - heading "Jij schrijft het verhaal" [level=3] [ref=e64]
+          - paragraph [ref=e65]: Geen vaste uitkomst. Jouw keuzes sturen het verhaal en elke sessie kan anders eindigen.
+        - article [ref=e66]:
+          - img "Jouw keuzes" [ref=e67]
+          - heading "Elke keuze telt" [level=3] [ref=e68]
+          - paragraph [ref=e69]: Zeg het verkeerde, vertrouw de verkeerde persoon of neem het risico. De gevolgen zijn echt.
+        - article [ref=e70]:
+          - img "Moderne stijl" [ref=e71]
+          - heading "Direct speelbaar" [level=3] [ref=e72]
+          - paragraph [ref=e73]: Kopen en meteen starten. Geen downloads, geen wachttijd. Jouw aankoop staat direct klaar in je account.
+    - region "Uitgelichte games" [ref=e77]:
+      - heading "Uitgelichte games" [level=2] [ref=e78]
+      - paragraph [ref=e79]: Handpicked avonturen die onze spelers het meest waarderen. De perfecte plek om te beginnen.
+      - list [ref=e81]:
+        - listitem [ref=e82]:
+          - article [ref=e84]:
+            - link "Tanner de Virus Scanner" [ref=e85] [cursor=pointer]:
+              - /url: /product.html?id=148
+              - img "Tanner de Virus Scanner" [ref=e86]
+            - generic [ref=e87]:
+              - generic [ref=e88]: "2024"
+              - heading "Tanner de Virus Scanner" [level=3] [ref=e89]
+              - paragraph [ref=e90]: € 29,99
+              - paragraph [ref=e91]: "## Overzicht: Welkom bij de spelpagina van Tanner de Virus Scanner! Het spel is een retro game dat zich afspeelt in een..."
+              - generic [ref=e92]:
+                - link "Bekijk game" [ref=e93] [cursor=pointer]:
+                  - /url: /product.html?id=148
+                - button "Voeg toe aan winkelwagen" [ref=e94] [cursor=pointer]
+        - listitem [ref=e95]:
+          - article [ref=e97]:
+            - link "Bakery Master" [ref=e98] [cursor=pointer]:
+              - /url: /product.html?id=141
+              - img "Bakery Master" [ref=e99]
+            - generic [ref=e100]:
+              - generic [ref=e101]: "2025"
+              - heading "Bakery Master" [level=3] [ref=e102]
+              - paragraph [ref=e103]: € 49,99
+              - paragraph [ref=e104]: "# If you like cake, this is the game for you! 🎂 **Bakery Master** is all about becoming the **best baker in town** 🍰..."
+              - generic [ref=e105]:
+                - link "Bekijk game" [ref=e106] [cursor=pointer]:
+                  - /url: /product.html?id=141
+                - button "Voeg toe aan winkelwagen" [ref=e107] [cursor=pointer]
+        - listitem [ref=e108]:
+          - article [ref=e110]:
+            - link "Eternal Quest" [ref=e111] [cursor=pointer]:
+              - /url: /product.html?id=132
+              - img "Eternal Quest" [ref=e112]
+            - generic [ref=e113]:
+              - generic [ref=e114]: "2024"
+              - heading "Eternal Quest" [level=3] [ref=e115]
+              - paragraph [ref=e116]: € 14,99
+              - paragraph [ref=e117]: Jij bent een koning, maar je bent vermist geraakt. De mensen van jouw rijk geloven niet meer dat jij de echte bent. Om j...
+              - generic [ref=e118]:
+                - link "Bekijk game" [ref=e119] [cursor=pointer]:
+                  - /url: /product.html?id=132
+                - button "Voeg toe aan winkelwagen" [ref=e120] [cursor=pointer]
+        - listitem [ref=e121]:
+          - article [ref=e123]:
+            - link "Lost Girl" [ref=e124] [cursor=pointer]:
+              - /url: /product.html?id=131
+              - img "Lost Girl" [ref=e125]
+            - generic [ref=e126]:
+              - generic [ref=e127]: "2024"
+              - heading "Lost Girl" [level=3] [ref=e128]
+              - paragraph [ref=e129]: € 19,99
+              - paragraph [ref=e130]: Je bent met je vriendin in een hotel. Wanneer je even naar de lobby gaat om snacks te halen en terugkeert naar je kamer,...
+              - generic [ref=e131]:
+                - link "Bekijk game" [ref=e132] [cursor=pointer]:
+                  - /url: /product.html?id=131
+                - button "Voeg toe aan winkelwagen" [ref=e133] [cursor=pointer]
+    - region "Veelgestelde vragen" [ref=e135]:
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - paragraph [ref=e138]: FAQ
+          - heading "Veelgestelde vragen" [level=2] [ref=e139]
+          - paragraph [ref=e140]: De meest gestelde vragen, direct beantwoord.
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - button "Hoe kan ik een game kopen?" [ref=e143] [cursor=pointer]:
+              - generic [ref=e144]: Hoe kan ik een game kopen?
+              - img [ref=e146]
+            - region "Hoe kan ik een game kopen?":
+              - paragraph [ref=e148]: Maak een gratis account aan, voeg een game toe aan je winkelwagen en reken af via onze beveiligde betaalpagina. Na betaling heb je direct toegang. Geen wachttijd.
+          - generic [ref=e149]:
+            - button "Moet ik een account aanmaken om te bestellen?" [ref=e150] [cursor=pointer]:
+              - generic [ref=e151]: Moet ik een account aanmaken om te bestellen?
+              - img [ref=e153]
+            - region "Moet ik een account aanmaken om te bestellen?":
+              - paragraph [ref=e155]: Ja, een account is nodig om te kopen en je bestellingen te beheren. Registreren is gratis en duurt minder dan een minuut. Je krijgt er ook een favorietenlijst bij.
+          - generic [ref=e156]:
+            - button "Wat zijn text-based adventure games?" [ref=e157] [cursor=pointer]:
+              - generic [ref=e158]: Wat zijn text-based adventure games?
+              - img [ref=e160]
+            - region "Wat zijn text-based adventure games?":
+              - paragraph [ref=e162]: Text-based adventures zijn verhaalgedreven games waarbij jouw keuzes de uitkomst bepalen. Geen complexe graphics, puur verhaal, sfeer en spanning. Elke beslissing kan het verloop veranderen, waardoor geen twee speelsessies hetzelfde zijn.
+          - generic [ref=e163]:
+            - button "Hoe ontvang ik mijn aankoop na betaling?" [ref=e164] [cursor=pointer]:
+              - generic [ref=e165]: Hoe ontvang ik mijn aankoop na betaling?
+              - img [ref=e167]
+            - region "Hoe ontvang ik mijn aankoop na betaling?":
+              - paragraph [ref=e169]: Direct na betaling staat je game klaar in je accountoverzicht. Geen downloads of installaties, je speelt meteen vanuit je browser.
+          - generic [ref=e170]:
+            - button "Kan ik een game retourneren?" [ref=e171] [cursor=pointer]:
+              - generic [ref=e172]: Kan ik een game retourneren?
+              - img [ref=e174]
+            - region "Kan ik een game retourneren?":
+              - paragraph [ref=e176]: Digitale producten zijn direct beschikbaar na aankoop, dus retourneren is in de meeste gevallen niet mogelijk. Heb je toch een probleem? Neem contact op, we zoeken altijd naar een passende oplossing.
+          - generic [ref=e177]:
+            - button "Hoe voeg ik games toe aan mijn favorieten?" [ref=e178] [cursor=pointer]:
+              - generic [ref=e179]: Hoe voeg ik games toe aan mijn favorieten?
+              - img [ref=e181]
+            - region "Hoe voeg ik games toe aan mijn favorieten?":
+              - paragraph [ref=e183]: Klik op het hartje op een gamekaart of productpagina om een game op te slaan. Je favorieten vind je altijd terug via het hart-icoontje in de navigatie.
+          - generic [ref=e184]:
+            - button "Hoe neem ik contact op met de klantenservice?" [ref=e185] [cursor=pointer]:
+              - generic [ref=e186]: Hoe neem ik contact op met de klantenservice?
+              - img [ref=e188]
+            - region "Hoe neem ik contact op met de klantenservice?":
+              - paragraph [ref=e190]: Gebruik het contactformulier op onze contactpagina. We reageren binnen één werkdag. Vul je melding zo volledig mogelijk in, dan kunnen we je sneller helpen.
+  - main
+  - contentinfo [ref=e192]:
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - generic [ref=e197]: VOOR ALLE AVONTURIERS
+        - heading "Begin het volgende hoofdstuk van jouw avontuur met LucaStars." [level=2] [ref=e199]:
+          - text: Begin het volgende
+          - text: hoofdstuk van jouw
+          - text: avontuur met LucaStars.
+      - generic [ref=e200]:
+        - paragraph [ref=e201]: Verhalen die je meenemen, merchandise die je bijhoudt. Alles voor de echte avonturier, op één plek.
+        - generic [ref=e202]:
+          - link "Shop Nu" [ref=e203] [cursor=pointer]:
+            - /url: /products.html
+            - text: Shop Nu
+            - img [ref=e204]
+          - link "Ontdek collectie" [ref=e206] [cursor=pointer]:
+            - /url: /products.html
+        - generic [ref=e207]:
+          - generic [ref=e208]:
+            - strong [ref=e209]: 50+
+            - text: PRODUCTEN
+          - generic [ref=e210]:
+            - strong [ref=e211]: GRATIS
+            - text: ACCOUNT
+          - generic [ref=e212]:
+            - strong [ref=e213]: VEILIG
+            - text: BETALEN
+    - generic [ref=e214]:
+      - generic: LucaStars
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - link "LucaStars" [ref=e217] [cursor=pointer]:
+            - /url: /index.html
+            - generic [ref=e219]: LucaStars
+          - paragraph [ref=e220]: Jouw startpunt voor spannende text-based adventures en exclusieve LucaStars collectibles.
+          - generic [ref=e221]:
+            - textbox "E-mailadres voor nieuwsbrief" [ref=e222]:
+              - /placeholder: jouw@email.nl
+            - button "Aanmelden" [ref=e223] [cursor=pointer]
+          - generic [ref=e224]:
+            - link "Instagram" [ref=e225] [cursor=pointer]:
+              - /url: https://instagram.com/luca_stars.2
+              - img [ref=e226]
+            - link "Facebook" [ref=e230] [cursor=pointer]:
+              - /url: https://facebook.com/Lucastars.2
+              - img [ref=e231]
+            - link "X" [ref=e233] [cursor=pointer]:
+              - /url: https://x.com/Lucastars2
+              - img [ref=e234]
+        - generic [ref=e236]:
+          - generic [ref=e237]:
+            - heading "Ontdekken" [level=3] [ref=e238]
+            - link "Home" [ref=e239] [cursor=pointer]:
+              - /url: /index.html
+            - link "Games" [ref=e240] [cursor=pointer]:
+              - /url: /products.html
+            - link "Over ons" [ref=e241] [cursor=pointer]:
+              - /url: /over-ons.html
+            - link "Contact" [ref=e242] [cursor=pointer]:
+              - /url: /contact.html
+          - generic [ref=e243]:
+            - heading "Account" [level=3] [ref=e244]
+            - link "Inloggen" [ref=e245] [cursor=pointer]:
+              - /url: /login.html
+            - link "Registreren" [ref=e246] [cursor=pointer]:
+              - /url: /registreren.html
+            - link "Favorieten" [ref=e247] [cursor=pointer]:
+              - /url: /favorites.html
+            - link "Winkelmandje" [ref=e248] [cursor=pointer]:
+              - /url: /cart.html
+    - generic [ref=e250]:
+      - paragraph [ref=e251]: © 2026 LucaStars. Alle rechten voorbehouden.
+      - link "Terug naar boven" [ref=e252] [cursor=pointer]:
+        - /url: "#"
+        - text: Terug naar boven
+        - img [ref=e253]
+  - region "Supportchat" [ref=e256]:
+    - button "Help" [ref=e257] [cursor=pointer]:
+      - generic [ref=e258]: "?"
+      - generic [ref=e259]: Help

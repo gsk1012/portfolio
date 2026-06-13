@@ -1,0 +1,40 @@
+- generic [ref=e3]:
+  - complementary [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: LucaStars
+      - generic [ref=e8]: Admin Panel
+    - navigation [ref=e9]:
+      - generic [ref=e10]:
+        - paragraph [ref=e11]: Overzicht
+        - link "Dashboard" [ref=e12] [cursor=pointer]:
+          - /url: /admin.html
+          - img [ref=e14]
+          - generic [ref=e15]: Dashboard
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: Winkel
+        - link "Bestellingen" [ref=e18] [cursor=pointer]:
+          - /url: /bestellingen-admin.html
+          - img [ref=e20]
+          - generic [ref=e21]: Bestellingen
+        - link "Producten" [ref=e22] [cursor=pointer]:
+          - /url: /producten-admin.html
+          - img [ref=e24]
+          - generic [ref=e25]: Producten
+        - link "Klanten" [ref=e26] [cursor=pointer]:
+          - /url: /klanten-admin.html
+          - img [ref=e28]
+          - generic [ref=e29]: Klanten
+      - generic [ref=e30]:
+        - paragraph [ref=e31]: Support
+        - link "Meldingen" [ref=e32] [cursor=pointer]:
+          - /url: /meldingen-admin.html
+          - img [ref=e34]
+          - generic [ref=e35]: Meldingen
+    - generic [ref=e36]:
+      - generic [ref=e38]:
+        - strong [ref=e39]: Administrator
+        - generic [ref=e40]: admin@lucastars.nl
+      - button "Uitloggen" [ref=e41] [cursor=pointer]:
+        - img [ref=e42]
+  - main [ref=e46]:
+    - generic [ref=e47]: Dashboard laden...

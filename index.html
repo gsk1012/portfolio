@@ -17,6 +17,23 @@
     <meta name="author" content="Gurpreet Singh Kaur" />
     <meta name="theme-color" content="#f4f4f2" />
 
+    <!-- Zet het thema vóór de eerste paint, zodat er geen lichtflits is -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme");
+          var dark = stored
+            ? stored === "dark"
+            : window.matchMedia("(prefers-color-scheme: dark)").matches;
+          if (dark) {
+            document.documentElement.classList.add("dark");
+            var m = document.querySelector('meta[name="theme-color"]');
+            if (m) m.setAttribute("content", "#100d0b");
+          }
+        } catch (e) {}
+      })();
+    </script>
+
     <!-- Canonical (vervang door je Vercel-domein na deployment) -->
     <link rel="canonical" href="https://gurpreetsinghkaur.nl/" />
 

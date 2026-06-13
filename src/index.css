@@ -2,6 +2,8 @@
 @import "@fontsource-variable/jetbrains-mono";
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-sans: "Outfit Variable", system-ui, sans-serif;
   --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
@@ -15,6 +17,40 @@
   --color-ink-soft: #211e1b;
   --color-accent: #ea580c;
   --color-accent-deep: #c2410c;
+}
+
+/* Donker thema: hetzelfde warme palet met omgekeerde helderheid. */
+html.dark {
+  --color-paper: #100d0b;
+  --color-shell: #1c1813;
+  --color-card: #211c16;
+  --color-ink: #f3f0ea;
+  --color-ink-soft: #e3dfd7;
+  --color-accent: #ea580c;
+  --color-accent-deep: #fb923c;
+}
+
+/* Uitgelichte projectkaarten blijven in beide thema's donker met lichte
+   tekst: binnen .surface-dark gebruiken we altijd het lichte palet. */
+html.dark .surface-dark {
+  --color-paper: #f4f4f2;
+  --color-shell: #e7e5e1;
+  --color-card: #fcfcfb;
+  --color-ink: #161412;
+  --color-ink-soft: #211e1b;
+  --color-accent: #ea580c;
+  --color-accent-deep: #c2410c;
+}
+
+/* Korte, gecoördineerde kleurfade bij het wisselen van thema. */
+@media (prefers-reduced-motion: no-preference) {
+  html.theme-transition,
+  html.theme-transition *,
+  html.theme-transition *::before,
+  html.theme-transition *::after {
+    transition: background-color 0.4s ease, border-color 0.4s ease,
+      color 0.4s ease, fill 0.4s ease, box-shadow 0.4s ease;
+  }
 }
 
 html {

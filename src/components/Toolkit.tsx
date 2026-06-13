@@ -31,6 +31,7 @@ function MarqueeItem({ tech, hidden }: { tech: Tech; hidden?: boolean }) {
         width={30}
         height={30}
         loading="lazy"
+        className="dark:invert"
       />
       <span className="text-xl font-medium tracking-tight">{tech.label}</span>
     </div>
@@ -66,7 +67,7 @@ function CellLogos({ slugs }: { slugs: string[] }) {
           width={24}
           height={24}
           loading="lazy"
-          className="opacity-55"
+          className="opacity-55 dark:invert"
         />
       ))}
     </div>
@@ -165,7 +166,7 @@ export function Toolkit() {
                 src="https://ghchart.rshah.org/ea580c/gsk1012"
                 alt="GitHub-contributiegrafiek van gsk1012 over het afgelopen jaar"
                 loading="lazy"
-                className="mt-auto w-full pt-8"
+                className="mt-auto w-full pt-8 dark:[filter:invert(1)_hue-rotate(180deg)]"
               />
             </a>
           </Reveal>

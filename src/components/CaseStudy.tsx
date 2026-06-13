@@ -63,7 +63,7 @@ const PROJECTS: Project[] = [
 function ProjectCard({ project, delay }: { project: Project; delay: number }) {
   return (
     <Reveal delay={delay} className="h-full">
-      <article className="flex h-full flex-col overflow-hidden rounded-[2rem] bg-ink text-paper sm:rounded-[2.5rem]">
+      <article className="surface-dark flex h-full flex-col overflow-hidden rounded-[2rem] bg-ink text-paper ring-1 ring-transparent dark:ring-paper/15 sm:rounded-[2.5rem]">
         <div className="flex flex-1 flex-col p-7 pb-6 sm:p-9 sm:pb-7">
           <p className="font-mono text-xs text-accent">{project.eyebrow}</p>
 

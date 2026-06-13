@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ListIcon, XIcon } from "@phosphor-icons/react";
 import { useScroll, useMotionValueEvent } from "motion/react";
+import { ThemeToggle } from "./ThemeToggle";
 
 const LINKS = [
   { href: "#over-mij", label: "Over mij" },
@@ -30,28 +31,32 @@ export function Nav() {
           gurpreet<span className="text-accent">.</span>
         </a>
 
-        <ul className="hidden items-center gap-8 md:flex">
-          {LINKS.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
-                className="text-sm font-medium text-ink/60 transition-colors hover:text-ink"
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <div className="flex items-center gap-2 md:gap-6">
+          <ul className="hidden items-center gap-8 md:flex">
+            {LINKS.map((link) => (
+              <li key={link.href}>
+                <a
+                  href={link.href}
+                  className="text-sm font-medium text-ink/60 transition-colors hover:text-ink"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
 
-        <button
-          type="button"
-          className="text-ink md:hidden"
-          onClick={() => setOpen((v) => !v)}
-          aria-expanded={open}
-          aria-label={open ? "Menu sluiten" : "Menu openen"}
-        >
-          {open ? <XIcon size={24} /> : <ListIcon size={24} />}
-        </button>
+          <ThemeToggle />
+
+          <button
+            type="button"
+            className="text-ink md:hidden"
+            onClick={() => setOpen((v) => !v)}
+            aria-expanded={open}
+            aria-label={open ? "Menu sluiten" : "Menu openen"}
+          >
+            {open ? <XIcon size={24} /> : <ListIcon size={24} />}
+          </button>
+        </div>
       </nav>
       </div>
 

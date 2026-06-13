@@ -110,7 +110,7 @@ function ProjectCard({ project, delay }: { project: Project; delay: number }) {
             src={project.shot.src}
             alt={project.shot.alt}
             loading="lazy"
-            className="w-full rounded-xl ring-1 ring-paper/15"
+            className="aspect-[16/10] w-full rounded-xl object-cover object-left-top ring-1 ring-paper/15"
           />
           <img
             src={project.phone.src}
